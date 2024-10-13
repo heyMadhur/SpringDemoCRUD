@@ -1,7 +1,6 @@
 package com.example.DemoWeb.Services;
 
 import com.example.DemoWeb.Models.Product;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
