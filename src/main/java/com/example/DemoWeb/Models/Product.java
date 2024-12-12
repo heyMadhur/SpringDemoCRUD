@@ -1,9 +1,17 @@
 package com.example.DemoWeb.Models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Product {
+
+    @Id
     int id;
     String name;
     int price, qty;
+
+    public Product(){}
 
     public Product(int id, String name, int price, int qty) {
         this.id=id;
